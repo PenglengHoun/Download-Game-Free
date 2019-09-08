@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+}
+
+.fullspace {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.container {
+    grid-column: 2 / 3;
+}
+
+#main-header {
+    background: black;
+    color: orange;
+    width: 100%;
+}
+
+#showcase {
+    background: url("./naruto-shippuden_-ultimate-ninja-storm-4-hd-wallpapers-33416-5467027.jpg");
+    background-position: center center;
+    font-size: 60px;
+    color: orange;
+    margin-bottom: 20px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 20px 0px;
+}
